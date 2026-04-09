@@ -1,0 +1,339 @@
+{
+  "iamRules_v1": [
+    {
+      "id": 1125,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "Diwali Banner",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android|ios",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 102,
+            "eventName": "add_to_cart",
+            "delay": 5,
+            "filterType": "all",
+            "filters": [
+              {
+                "key": "name",
+                "operator": "is",
+                "dataType": "string",
+                "value": "Apple"
+              }
+            ]
+          },
+          {
+            "eventId": 3,
+            "eventName": "Checkout",
+            "delay": 7,
+            "filterType": "all",
+            "filters": [
+              {
+                "key": "product[].url",
+                "operator": "contains",
+                "dataType": "string",
+                "value": "www"
+              }
+            ]
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "13:00"
+              },
+              {
+                "from": "14:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 5,
+        "controlGroupMid": 1127,
+        "audience": [
+          {
+            "audienceId": 123,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [
+                  23
+                ],
+                "listIds": [
+                  20
+                ]
+              },
+              "exclude": {
+                "segIds": [
+                  31
+                ],
+                "listIds": [
+                  29
+                ]
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": [
+                {
+                  "eventId": 111,
+                  "eventName": "product_view",
+                  "performed": "yes",
+                  "waitUntil": null,
+                  "filterType": "all",
+                  "filters": [
+                    {
+                      "key": "name",
+                      "operator": "contains",
+                      "dataType": "string",
+                      "value": "Apple"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "1125-A",
+        "content": [
+          {
+            "mid": 1125,
+            "audienceId": 123,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "1000-20000",
+            "attrIds": [
+              5
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/841.html?inappVer=1",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1125,
+            "audienceId": 123,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "20001-40000",
+            "attrIds": [
+              5
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/841.html?inappVer=1",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1125,
+            "audienceId": 123,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "40001-80000",
+            "attrIds": [
+              5
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/841.html?inappVer=1",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1125,
+            "audienceId": 123,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "80001-90000",
+            "attrIds": [
+              5
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/841.html?inappVer=1",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1126,
+            "audienceId": 123,
+            "contentId": "1125-B",
+            "layoutType": "footer",
+            "variant": "20001-40000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/842.html?inappVer=1",
+              "useFullscreen": 1
+            }
+          }
+        ],
+        "customKeyValue": {
+          "country": "IN",
+          "language": "EN"
+        },
+        "gaParams": {
+          "utm_source": "Netcore",
+          "utm_campaign": "Bha test filters",
+          "utm_medium": "In-app",
+          "utm_content": ""
+        }
+      }
+    }
+  ],
+  "testInAppRules": [],
+  "smartechSettings": {
+    "paEnabled": true,
+    "appInboxEnabled": true,
+    "paInterval": 15,
+    "sdkActive": true,
+    "sessionInterval": 30,
+    "batchInterval": 10,
+    "batchSize": 30,
+    "td": {
+      "guids": [
+        "EB8DCC13-CD1E-4A77-9CEB-F716B09597DF",
+        "80AD7AFC-113F-4401-9265-908455E5ED08",
+        "7A2FEC1F-87BE-475E-AA16-2EA996CEB468",
+        "97D0DFCD-837E-41E8-BC37-A9A162D06D93",
+        "240B80CC-D5CA-49F6-BCD6-D53DAD7F6F6A",
+        "97495814-FEB8-4B2E-A65C-63B96901C393",
+        "61473042-1597-48C1-B2C3-D4B5AECBA465",
+        "13F8AB8C-C766-4A3F-9EF1-5066EA959F5C",
+        "EF3896CA-0D91-4C98-9B95-E66C09CA5303",
+        "A8EA0CD6-ADDA-4F85-9273-1C63A719E978",
+        "A7573708-A121-41C0-9575-C7D70EF07A35"
+      ],
+      "logEnabled": false,
+      "logLevel": 1
+    },
+    "eventSettings": {
+      "allevents": true,
+      "lifecycle": true,
+      "push": true,
+      "inapp": true,
+      "appinbox": true
+    },
+    "panelActive": true,
+    "eventLimit": 200,
+    "frequency": {
+      "enable": 1,
+      "month": 0,
+      "week": 0,
+      "day": 150
+    },
+    "baseUrls": {
+      "trackAppActUrl": "https://npn.netcoresmartech.com/",
+      "pushAmpUrl": "https://pa.netcoresmartech.com/",
+      "inAppUrl": "https://ninapp.netcoresmartech.com/",
+      "inboxUrl": "https://appinbox.netcoresmartech.com/",
+      "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+      "testDeviceUrl": "https://api.netcoresmartech.com/",
+      "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
+    },
+    "features": {
+      "contentPz": {
+        "enabled": true,
+        "syncInterval": 0
+      }
+    },
+    "hansel_api_endpoints": {
+      "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
+      "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
+      "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
+      "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
+      "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
+      "socket": "wss://websocket-visualizer.hansel.io",
+      "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
+    },
+    "userAttrConfig": {
+      "enabled": true,
+      "syncInterval": 30,
+      "attrIds": [
+        5
+      ]
+    },
+    "cid": 140578,
+    "gwConfig": {
+      "xiaomi": {
+        "enable": false,
+        "enablePushFor": null,
+        "tokenSendInterval": 60
+      }
+    },
+    "sConfig": {
+      "etData": false,
+      "p": "XCb29K4fztFC5BHG0pLgteQTyw7QLUDJxOLGzQW9jBMpct5dSRtl6kfEQmuCh8lO",
+      "a": ""
+    }
+  }
+}
