@@ -23,7 +23,7 @@
             "filters": [
               {
                 "key": "name",
-                "operator": "is",
+                "operator": "contains",
                 "dataType": "string",
                 "value": "Apple"
               }
