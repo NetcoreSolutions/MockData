@@ -22,7 +22,7 @@
             "filterType": "all",
             "filters": [
               {
-                "key": "name",
+                "key": "product.name",
                 "operator": "contains",
                 "dataType": "string",
                 "value": "iPhone"
