@@ -153,7 +153,7 @@
                   "filterType": "all",
                   "filters": [
                     {
-                      "key": "product.name",
+                      "key": "name",
                       "operator": "contains",
                       "dataType": "string",
                       "value": "Apple"
