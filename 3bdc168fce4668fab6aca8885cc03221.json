@@ -73,7 +73,7 @@
             "day": 2,
             "time": [
               {
-               "from": "00:01",
+                "from": "00:01",
                 "to": "23:59"
               }
             ]
@@ -82,7 +82,7 @@
             "day": 3,
             "time": [
               {
-               "from": "00:01",
+                "from": "00:01",
                 "to": "23:59"
               }
             ]
@@ -91,7 +91,7 @@
             "day": 4,
             "time": [
               {
-              "from": "00:01",
+                "from": "00:01",
                 "to": "23:59"
               }
             ]
@@ -100,7 +100,7 @@
             "day": 5,
             "time": [
               {
-           "from": "00:01",
+                "from": "00:01",
                 "to": "23:59"
               }
             ]
@@ -109,7 +109,7 @@
             "day": 6,
             "time": [
               {
-               "from": "00:01",
+                "from": "00:01",
                 "to": "23:59"
               }
             ]
@@ -159,6 +159,14 @@
                       "value": "Apple"
                     }
                   ]
+                },
+                {
+                  "eventId": 103,
+                  "eventName": "lead_submitted",
+                  "performed": "no",
+                  "waitUntil": 120,
+                  "filterType": "all",
+                  "filters": []
                 }
               ]
             }
