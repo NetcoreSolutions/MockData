@@ -150,7 +150,7 @@
             "mid": 1144,
             "audienceId": 1234,
             "contentId": "1125-A",
-            "layoutType": "1",
+            "layoutType": "header",
             "variant": "1000-100000",
             "attrIds": [
               -1
@@ -163,7 +163,7 @@
             "mid": 1144,
             "audienceId": 1234,
             "contentId": "1125-A",
-            "layoutType": "1",
+            "layoutType": "header",
             "variant": "1000-20000",
             "attrIds": [],
             "payload": {
@@ -174,7 +174,7 @@
             "mid": 1141,
             "audienceId": 12345,
             "contentId": "1125-B",
-            "layoutType": "2",
+            "layoutType": "footer",
             "variant": "20001-40000",
             "attrIds": [],
             "payload": {
