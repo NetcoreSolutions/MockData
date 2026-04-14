@@ -18,7 +18,7 @@
           {
             "eventId": 102,
             "eventName": "add_to_cart",
-            "delay": 10,
+            "delay": 0,
             "filterType": "all",
             "filters": [
               {
