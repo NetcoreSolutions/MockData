@@ -196,8 +196,8 @@
     },
         {
       "id": 1111,
-      "v": 2,
-      "priority": 1,
+      "v": 1,
+      "priority": 2,
       "campaignName": "Krutika Test 1152",
       "campaignType": "regular",
       "status": "running",
