@@ -194,6 +194,178 @@
         }
       }
     },
+        {
+      "id": 1111,
+      "v": 2,
+      "priority": 1,
+      "campaignName": "Krutika Test 1152",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2026-02-19T12:11:23Z",
+      "modifiedDate": "2026-02-22T12:18:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 102,
+            "eventName": "add_to_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "13:00"
+              },
+              {
+                "from": "14:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 9,
+        "controlGroupMid": 1144,
+        "audience": [
+          {
+            "audienceId": 1234,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [],
+                "listIds": []
+              },
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": [
+              ]
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "1125-A",
+        "content": [
+          {
+            "mid": 1144,
+            "audienceId": 1234,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "1000-100000",
+            "attrIds": [
+              -1
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com//140578//in-app-content//851.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1144,
+            "audienceId": 1234,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "1000-20000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1141,
+            "audienceId": 12345,
+            "contentId": "1125-B",
+            "layoutType": "footer",
+            "variant": "20001-40000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {
+          "country": "IN",
+          "language": "EN"
+        },
+        "gaParams": {
+          "utm_source": "Netcore",
+          "utm_campaign": "Bha test filters",
+          "utm_medium": "In-app",
+          "utm_content": ""
+        }
+      }
+    },
     {
       "id": 1146,
       "v": 1,
