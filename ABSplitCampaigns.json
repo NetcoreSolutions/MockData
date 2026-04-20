@@ -3,7 +3,7 @@
     {
       "id": 1152,
       "v": 1,
-      "priority": 1,
+      "priority": 2,
       "campaignName": "Krutika Test 1152",
       "campaignType": "regular",
       "status": "running",
@@ -197,7 +197,7 @@
         {
       "id": 1111,
       "v": 1,
-      "priority": 2,
+      "priority": 1,
       "campaignName": "Krutika Test 1152",
       "campaignType": "regular",
       "status": "running",
