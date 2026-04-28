@@ -81,7 +81,7 @@
       },
       "whatTo": {
         "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1",
-        "useFullscreen": 0,
+        "useFullscreen": 1,
         "smtCustomPayload": {
           "utm_source": "Netcore",
           "utm_campaign": "AS Personalised Campaign",
