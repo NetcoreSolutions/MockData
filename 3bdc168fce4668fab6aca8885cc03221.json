@@ -306,7 +306,7 @@
       "inboxUrl": "https://appinbox.netcoresmartech.com/",
       "listSegUrl": "https://psegment1-us.netcoresmartech.com/",
       "testDeviceUrl": "https://api.netcoresmartech.com/",
-      "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
+      "contentPzUrl": "https://app1-cpz2.netcoresmartech.com/prod/"
     },
     "features": {
       "contentPz": {
