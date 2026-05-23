@@ -21,26 +21,6 @@
             "delay": 0,
             "filterType": "all",
             "filters": [
-              {
-                "key": "product.name",
-                "operator": "contains",
-                "dataType": "string",
-                "value": "iPhone"
-              }
-            ]
-          },
-          {
-            "eventId": 3,
-            "eventName": "Checkout",
-            "delay": 7,
-            "filterType": "all",
-            "filters": [
-              {
-                "key": "product[].url",
-                "operator": "contains",
-                "dataType": "string",
-                "value": "www"
-              }
             ]
           }
         ]
@@ -51,12 +31,8 @@
             "day": 0,
             "time": [
               {
-                "from": "09:00",
-                "to": "13:00"
-              },
-              {
-                "from": "14:00",
-                "to": "19:00"
+                "from": "00:01",
+                "to": "23:59"
               }
             ]
           },
@@ -127,18 +103,18 @@
             "filters": {
               "include": {
                 "segIds": [
-                  23
+               
                 ],
                 "listIds": [
-                  20
+                 
                 ]
               },
               "exclude": {
                 "segIds": [
-                  31
+                
                 ],
                 "listIds": [
-                  29
+               
                 ]
               }
             },
@@ -152,12 +128,6 @@
                   "waitUntil": null,
                   "filterType": "all",
                   "filters": [
-                    {
-                      "key": "name",
-                      "operator": "contains",
-                      "dataType": "string",
-                      "value": "Apple"
-                    }
                   ]
                 },
                 {
