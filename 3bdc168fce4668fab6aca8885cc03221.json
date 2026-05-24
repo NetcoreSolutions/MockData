@@ -20,8 +20,7 @@
             "eventName": "add_to_cart",
             "delay": 0,
             "filterType": "all",
-            "filters": [
-            ]
+            "filters": []
           }
         ]
       },
@@ -102,20 +101,12 @@
             "priority": 1,
             "filters": {
               "include": {
-                "segIds": [
-               
-                ],
-                "listIds": [
-                 
-                ]
+                "segIds": [],
+                "listIds": []
               },
               "exclude": {
-                "segIds": [
-                
-                ],
-                "listIds": [
-               
-                ]
+                "segIds": [],
+                "listIds": []
               }
             },
             "events": {
@@ -127,9 +118,217 @@
                   "performed": "yes",
                   "waitUntil": null,
                   "filterType": "all",
-                  "filters": [
-                  ]
+                  "filters": []
                 },
+                {
+                  "eventId": 103,
+                  "eventName": "lead_submitted",
+                  "performed": "no",
+                  "waitUntil": 120,
+                  "filterType": "all",
+                  "filters": []
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "1125-A",
+        "content": [
+          {
+            "mid": 1125,
+            "audienceId": 123,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "1000-20000",
+            "attrIds": [
+              5
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com//140578//in-app-content//851.html?inappVer=1%22",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1125,
+            "audienceId": 123,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "20001-40000",
+            "attrIds": [
+              5
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com//140578//in-app-content//851.html?inappVer=1%22",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1125,
+            "audienceId": 123,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "40001-80000",
+            "attrIds": [
+              5
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com//140578//in-app-content//851.html?inappVer=1%22",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1125,
+            "audienceId": 123,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "80001-90000",
+            "attrIds": [
+              5
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com//140578//in-app-content//851.html?inappVer=1%22",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1126,
+            "audienceId": 123,
+            "contentId": "1125-B",
+            "layoutType": "footer",
+            "variant": "20001-40000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com//140578//in-app-content//851.html?inappVer=1%22",
+              "useFullscreen": 1
+            }
+          }
+        ],
+        "customKeyValue": {
+          "country": "IN",
+          "language": "EN"
+        },
+        "gaParams": {
+          "utm_source": "Netcore",
+          "utm_campaign": "Bha test filters",
+          "utm_medium": "In-app",
+          "utm_content": ""
+        }
+      }
+    },
+    {
+      "id": 1126,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "Single Campaign",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android|ios",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 102,
+            "eventName": "page_browse",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "00:01",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "00:01",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "00:01",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "00:01",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "00:01",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "00:01",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "00:01",
+                "to": "23:59"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 9,
+        "controlGroupMid": 1127,
+        "audience": [
+          {
+            "audienceId": 123,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [],
+                "listIds": []
+              },
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": [
                 {
                   "eventId": 103,
                   "eventName": "lead_submitted",
@@ -274,7 +473,7 @@
       "pushAmpUrl": "https://pa.netcoresmartech.com/",
       "inAppUrl": "https://ninapp.netcoresmartech.com/",
       "inboxUrl": "https://appinbox.netcoresmartech.com/",
-      "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+      "listSegUrl": "https://psegment1-us.netcoresmartech.com/",
       "testDeviceUrl": "https://api.netcoresmartech.com/",
       "contentPzUrl": "https://app1-cpz2.netcoresmartech.com/prod/"
     },
