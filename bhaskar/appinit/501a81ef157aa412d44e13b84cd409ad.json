@@ -200,7 +200,7 @@
         "features": {
             "contentPz": {
                 "enabled": true,
-                "syncInterval": 0
+                "syncInterval": 2
             }
         },
         "frequency": {
