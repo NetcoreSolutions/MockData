@@ -201,15 +201,6 @@
             "contentPz": {
                 "enabled": true,
                 "syncInterval": 0
-            },
-            "inApp": {
-                "enableTrustedHostsValidation": false,
-                "trustedHosts": [
-                    "https://cdndc.netcoresmartech.com",
-                    "https://cdnt.netcoresmartech.com",
-                    "netcorecloud.com",
-                    "netcoresmartech.com"
-                ]
             }
         },
         "frequency": {
