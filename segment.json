@@ -1,11 +1,7 @@
 {
   "data": {
-    "listIds": [20],
-    "segIds": [
-      26,
-      27,
-      23,
-      101
-    ]
+    "listIds": [],
+    "segIds": [],
+    "isUserInGcg": true
   }
 }
