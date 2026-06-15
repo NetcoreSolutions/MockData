@@ -92,7 +92,7 @@
       },
       "whomTo": {
         "guid": [],
-        "controlGroup": 1,
+        "controlGroup": 94,
         "controlGroupMid": 3092,
         "audience": [
           {
@@ -353,8 +353,8 @@
         "syncInterval": 0
       },
       "gcgConfig": {
-        "listEnabled": true,
-        "percentage": 0
+        "listEnabled": false,
+        "percentage": 10
       }
     },
     "hansel_api_endpoints": {
