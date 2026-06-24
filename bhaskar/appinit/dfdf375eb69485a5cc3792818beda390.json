@@ -1,253 +1,365 @@
 {
-    "inAppRules": [
-      {
-        "id": "221",
-        "fromDate": "2026-06-23T11:00:47",
-        "toDate": "2027-12-30T07:45:24",
-        "modifiedDate": "2026-06-23T11:00:53",
-        "frequencyType": "",
-        "frequency": "0",
-        "whomTo": {
-          "visitor": "all",
-          "visitorType": "all"
-        },
-        "whereTo": {
-          "multiTrigger": [
-            {
-              "delay": 0,
-              "eventId": 3,
-              "eventName": "Checkout",
-              "filterType": "all",
-              "filters": []
-            }
-          ],
-          "position": "3",
-          "trigger": {
+  "inAppRules": [
+    {
+      "id": "223",
+      "fromDate": "2026-06-24T06:23:54",
+      "toDate": "2027-12-30T07:45:24",
+      "modifiedDate": "2026-06-24T06:23:59",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "delay": 0,
+            "eventId": 161,
+            "eventName": "page_browse",
+            "filterType": "all",
+            "filters": []
+          }
+        ],
+        "position": "3",
+        "trigger": {
+          "delay": 0,
+          "eventId": 161,
+          "eventName": "page_browse",
+          "filterType": "all",
+          "filters": []
+        }
+      },
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "attrIds": [],
+        "smtCustomPayload": {},
+        "url": "https://cdnt.netcoresmartech.com/smartechapp-sdk/smartech-ce/dist/index.html",
+        "useFullscreen": 0
+      },
+      "contentType": 3,
+      "controlGroup": 0
+    },
+    {
+      "id": "222",
+      "fromDate": "2026-06-24T06:15:57",
+      "toDate": "2027-12-30T07:45:00",
+      "modifiedDate": "2026-06-24T06:15:59",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "delay": 0,
+            "eventId": 187,
+            "eventName": "lead_submitted",
+            "filterType": "all",
+            "filters": []
+          }
+        ],
+        "position": "4",
+        "trigger": {
+          "delay": 0,
+          "eventId": 187,
+          "eventName": "lead_submitted",
+          "filterType": "all",
+          "filters": []
+        }
+      },
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "attrIds": [],
+        "smtCustomPayload": {},
+        "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/222.html?inappVer=1",
+        "useFullscreen": 1
+      },
+      "contentType": 1,
+      "controlGroup": 0
+    },
+    {
+      "id": "221",
+      "fromDate": "2026-06-23T11:00:47",
+      "toDate": "2027-12-30T07:45:24",
+      "modifiedDate": "2026-06-23T11:00:53",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "multiTrigger": [
+          {
             "delay": 0,
             "eventId": 3,
             "eventName": "Checkout",
             "filterType": "all",
             "filters": []
           }
-        },
-        "whenTo": {
-          "days": [
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"
-          ],
-          "time": [
-            {
-              "from": "09:00",
-              "to": "21:00"
-            }
-          ]
-        },
-        "whatTo": {
-          "attrIds": [],
-          "smtCustomPayload": {},
-          "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/221.html?inappVer=1",
-          "useFullscreen": 1
-        },
-        "contentType": 1,
-        "controlGroup": 0
+        ],
+        "position": "3",
+        "trigger": {
+          "delay": 0,
+          "eventId": 3,
+          "eventName": "Checkout",
+          "filterType": "all",
+          "filters": []
+        }
       },
-      {
-        "id": "220",
-        "fromDate": "2026-06-23T09:52:48",
-        "toDate": "2027-12-30T07:45:00",
-        "modifiedDate": "2026-06-23T09:52:50",
-        "frequencyType": "",
-        "frequency": "0",
-        "whomTo": {
-          "visitor": "all",
-          "visitorType": "all"
-        },
-        "whereTo": {
-          "multiTrigger": [
-            {
-              "delay": 0,
-              "eventId": 189,
-              "eventName": "product_search",
-              "filterType": "all",
-              "filters": []
-            }
-          ],
-          "position": "4",
-          "trigger": {
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "attrIds": [],
+        "smtCustomPayload": {},
+        "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/221.html?inappVer=1",
+        "useFullscreen": 1
+      },
+      "contentType": 1,
+      "controlGroup": 0
+    },
+    {
+      "id": "220",
+      "fromDate": "2026-06-23T09:52:48",
+      "toDate": "2027-12-30T07:45:00",
+      "modifiedDate": "2026-06-23T09:52:50",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "multiTrigger": [
+          {
             "delay": 0,
             "eventId": 189,
             "eventName": "product_search",
             "filterType": "all",
             "filters": []
           }
-        },
-        "whenTo": {
-          "days": [
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"
-          ],
-          "time": [
-            {
-              "from": "09:00",
-              "to": "21:00"
-            }
-          ]
-        },
-        "whatTo": {
-          "attrIds": [],
-          "smtCustomPayload": {},
-          "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/220.html?inappVer=1",
-          "useFullscreen": 1
-        },
-        "contentType": 1,
-        "controlGroup": 0
+        ],
+        "position": "4",
+        "trigger": {
+          "delay": 0,
+          "eventId": 189,
+          "eventName": "product_search",
+          "filterType": "all",
+          "filters": []
+        }
       },
-      {
-        "id": "218",
-        "fromDate": "2026-06-23T06:58:33",
-        "toDate": "2027-12-30T07:45:24",
-        "modifiedDate": "2026-06-23T06:58:44",
-        "frequencyType": "",
-        "frequency": "0",
-        "whomTo": {
-          "visitor": "all",
-          "visitorType": "all"
-        },
-        "whereTo": {
-          "multiTrigger": [
-            {
-              "delay": 0,
-              "eventId": 195,
-              "eventName": "add_to_wishlist",
-              "filterType": "all",
-              "filters": []
-            }
-          ],
-          "position": "4",
-          "trigger": {
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "attrIds": [],
+        "smtCustomPayload": {},
+        "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/220.html?inappVer=1",
+        "useFullscreen": 1
+      },
+      "contentType": 1,
+      "controlGroup": 0
+    },
+    {
+      "id": "218",
+      "fromDate": "2026-06-23T06:58:33",
+      "toDate": "2027-12-30T07:45:24",
+      "modifiedDate": "2026-06-23T06:58:44",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "multiTrigger": [
+          {
             "delay": 0,
             "eventId": 195,
             "eventName": "add_to_wishlist",
             "filterType": "all",
             "filters": []
           }
-        },
-        "whenTo": {
-          "days": [
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"
-          ],
-          "time": [
-            {
-              "from": "09:00",
-              "to": "21:00"
-            }
-          ]
-        },
-        "whatTo": {
-          "attrIds": [],
-          "smtCustomPayload": {},
-          "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/218.html?inappVer=1",
-          "useFullscreen": 1
-        },
-        "contentType": 1,
-        "controlGroup": 0
-      }
-    ],
-    "smartechSettings": {
-      "appInboxEnabled": true,
-      "baseUrls": {
-        "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/",
-        "inAppUrl": "https://ninapp.netcoresmartech.com/",
-        "inboxUrl": "https://appinbox.netcoresmartech.com/",
-        "listSegUrl": "https://psegment-us.netcoresmartech.com/",
-        "pushAmpUrl": "https://npa.netcoresmartech.com/",
-        "testDeviceUrl": "https://api.netcoresmartech.com/",
-        "trackAppActUrl": "https://npn.netcoresmartech.com/"
-      },
-      "batchInterval": 10,
-      "batchSize": 30,
-      "cid": "170666",
-      "eventLimit": 200,
-      "eventSettings": {
-        "allevents": true,
-        "appinbox": true,
-        "inapp": true,
-        "lifecycle": true,
-        "push": true
-      },
-      "features": {
-        "contentPz": {
-          "enabled": true,
-          "syncInterval": 0
-        },
-        "inApp": {
-          "enableTrustedHostsValidation": true,
-          "trustedHosts": [
-            "https://cdndc.netcoresmartech.com",
-            "https://cdnt.netcoresmartech.com",
-            "netcorecloud.com",
-            "netcoresmartech.com"
-          ]
+        ],
+        "position": "4",
+        "trigger": {
+          "delay": 0,
+          "eventId": 195,
+          "eventName": "add_to_wishlist",
+          "filterType": "all",
+          "filters": []
         }
       },
-      "frequency": {
-        "day": 1000,
-        "enable": 1,
-        "month": 1000,
-        "week": 1000
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
       },
-      "gwConfig": {
-        "xiaomi": {
-          "enable": false,
-          "enablePushFor": null,
-          "tokenSendInterval": 60
-        }
-      },
-      "hansel_api_endpoints": {
-        "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
-        "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
-        "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
-        "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/",
-        "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
-        "socket": "wss://websocket-visualizer.hansel.io",
-        "td_auth": "https://sdk.hansel.io/dashboard/td/verify"
-      },
-      "paEnabled": true,
-      "paInterval": 15,
-      "panelActive": true,
-      "sConfig": {
-        "a": "",
-        "etData": false,
-        "p": "5t7DhaMqecJEietYpTM9GkmrrjI5kA1p383ljQMy2vdlJGj9z5igqFHRZqXk0YK4"
-      },
-      "sdkActive": true,
-      "sessionInterval": 30,
-      "td": {
-        "guids": [],
-        "logEnabled": false,
-        "logLevel": 1
-      },
-      "userAttrConfig": {
+      "whatTo": {
         "attrIds": [],
+        "smtCustomPayload": {},
+        "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/218.html?inappVer=1",
+        "useFullscreen": 1
+      },
+      "contentType": 1,
+      "controlGroup": 0
+    }
+  ],
+  "smartechSettings": {
+    "appInboxEnabled": true,
+    "baseUrls": {
+      "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/",
+      "inAppUrl": "https://ninapp.netcoresmartech.com/",
+      "inboxUrl": "https://appinbox.netcoresmartech.com/",
+      "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+      "pushAmpUrl": "https://npa.netcoresmartech.com/",
+      "testDeviceUrl": "https://api.netcoresmartech.com/",
+      "trackAppActUrl": "https://npn.netcoresmartech.com/"
+    },
+    "batchInterval": 10,
+    "batchSize": 30,
+    "cid": "170666",
+    "eventLimit": 200,
+    "eventSettings": {
+      "allevents": true,
+      "appinbox": true,
+      "inapp": true,
+      "lifecycle": true,
+      "push": true
+    },
+    "features": {
+      "contentPz": {
         "enabled": true,
-        "syncInterval": 30
+        "syncInterval": 0
+      },
+      "inApp": {
+        "enableTrustedHostsValidation": true,
+        "trustedHosts": [
+          "https://cdndc.netcoresmartech.com",
+          "https://cdnt.netcoresmartech.com",
+          "netcorecloud.com",
+          "netcoresmartech.com"
+        ]
       }
     },
-    "testInAppRules": []
-  }
+    "frequency": {
+      "day": 1000,
+      "enable": 1,
+      "month": 1000,
+      "week": 1000
+    },
+    "gwConfig": {
+      "xiaomi": {
+        "enable": false,
+        "enablePushFor": null,
+        "tokenSendInterval": 60
+      }
+    },
+    "hansel_api_endpoints": {
+      "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
+      "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
+      "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
+      "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/",
+      "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
+      "socket": "wss://websocket-visualizer.hansel.io",
+      "td_auth": "https://sdk.hansel.io/dashboard/td/verify"
+    },
+    "paEnabled": true,
+    "paInterval": 15,
+    "panelActive": true,
+    "sConfig": {
+      "a": "",
+      "etData": false,
+      "p": "5t7DhaMqecJEietYpTM9GkmrrjI5kA1p383ljQMy2vdlJGj9z5igqFHRZqXk0YK4"
+    },
+    "sdkActive": true,
+    "sessionInterval": 30,
+    "td": {
+      "guids": [],
+      "logEnabled": false,
+      "logLevel": 1
+    },
+    "userAttrConfig": {
+      "attrIds": [],
+      "enabled": true,
+      "syncInterval": 30
+    }
+  },
+  "testInAppRules": []
+}
