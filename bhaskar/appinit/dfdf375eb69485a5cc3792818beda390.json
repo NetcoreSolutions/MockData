@@ -309,7 +309,7 @@
         "syncInterval": 0
       },
       "inApp": {
-        "enableTrustedHostsValidation": true,
+        "enableTrustedHostsValidation": false,
         "trustedHosts": [
           "https://cdndc.netcoresmartech.com",
           "https://cdnt.netcoresmartech.com",
