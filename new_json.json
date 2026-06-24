@@ -20,7 +20,14 @@
             "eventName": "add_to_cart",
             "delay": 0,
             "filterType": "all",
-            "filters": []
+            "filters": [
+              {
+              "key": "prid",
+              "operator": "==",
+              "dataType": "int",
+              "value": "100"
+            }
+            ]
           }
         ]
       },
