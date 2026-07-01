@@ -257,7 +257,7 @@
             "audienceId": 1693
           }
         ],
-        "controlGroup": 15
+        "controlGroup": 9
       },
       "whereTo": {
         "trigger": [
@@ -271,7 +271,7 @@
       "priority": 1,
       "campaignName": "KrTest - 1",
       "campaignType": "regular",
-      "modifiedDate": "2026-01-29T05:01:30Z"
+      "modifiedDate": "2026-02-29T05:01:30Z"
     }
   ],
   "cpzRulesTest_v1": []
