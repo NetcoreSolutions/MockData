@@ -3,7 +3,7 @@
     {
       "v": 1,
       "id": 14,
-      "gcgEnabled": true,
+      "scgEnabled": true,
       "os": "android",
       "status": "running",
       "toDate": "2031-06-12T06:01:52Z",
@@ -127,7 +127,7 @@
             "audienceId": 4531
           }
         ],
-        "controlGroup": 95
+        "controlGroup": 70
       },
       "whereTo": {
         "trigger": [
@@ -141,12 +141,12 @@
       "priority": 1,
       "campaignName": "KrTest - cpz control group testing",
       "campaignType": "regular",
-      "modifiedDate": "2026-06-12T06:01:52Z"
+      "modifiedDate": "2026-06-13T06:01:52Z"
     },
     {
       "v": 1,
       "id": 3,
-      "gcgEnabled": true,
+      "scgEnabled": false,
       "os": "android",
       "status": "running",
       "toDate": "2031-01-29T05:01:30Z",
@@ -243,7 +243,9 @@
             },
             "filters": {
               "exclude": {
-                "segIds": [],
+                "segIds": [
+                  12
+                ],
                 "listIds": []
               },
               "include": {
@@ -255,7 +257,7 @@
             "audienceId": 1693
           }
         ],
-        "controlGroup": 0
+        "controlGroup": 15
       },
       "whereTo": {
         "trigger": [
