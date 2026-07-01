@@ -146,7 +146,7 @@
     {
       "v": 1,
       "id": 3,
-      "scgEnabled": false,
+      "scgEnabled": true,
       "os": "android",
       "status": "running",
       "toDate": "2031-01-29T05:01:30Z",
@@ -271,7 +271,7 @@
       "priority": 1,
       "campaignName": "KrTest - 1",
       "campaignType": "regular",
-      "modifiedDate": "2026-02-29T05:01:30Z"
+      "modifiedDate": "2026-02-29T05:06:30Z"
     }
   ],
   "cpzRulesTest_v1": []
