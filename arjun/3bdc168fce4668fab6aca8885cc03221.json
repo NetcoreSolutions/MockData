@@ -508,9 +508,9 @@
       "pushAmpUrl": "https://pa.netcoresmartech.com/",
       "inAppUrl": "https://ninapp.netcoresmartech.com/",
       "inboxUrl": "https://appinbox.netcoresmartech.com/",
-      "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+      "listSegUrl": "https://raw.githubusercontent.com/NetcoreSolutions/MockData/refs/heads/main/arjun/",
       "testDeviceUrl": "https://api.netcoresmartech.com/",
-      "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
+      "contentPzUrl": "https://raw.githubusercontent.com/NetcoreSolutions/MockData/refs/heads/main/arjun/"
     },
     "features": {
       "contentPz": {
