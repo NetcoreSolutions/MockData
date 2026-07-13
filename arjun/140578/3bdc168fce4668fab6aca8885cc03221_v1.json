@@ -110,7 +110,26 @@
         "audience": [
           {
             "events": {
-              "rules": [],
+              "rules": [
+                {
+                  "eventId": 102,
+                  "filters": [],
+                  "eventName": "add_to_cart",
+                  "performed": "yes",
+                  "waitUntil": null,
+                  "filterType": "all",
+                  "check_activity_rule": "all"
+                },
+                {
+                  "eventId": 113,
+                  "filters": [],
+                  "eventName": "add_to_wishlist",
+                  "performed": "no",
+                  "waitUntil": 120,
+                  "filterType": "all",
+                  "check_activity_rule": "all"
+                }
+              ],
               "targetRule": "all"
             },
             "filters": {
