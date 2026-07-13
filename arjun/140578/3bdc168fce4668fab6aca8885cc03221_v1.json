@@ -125,7 +125,7 @@
                   "filters": [],
                   "eventName": "add_to_wishlist",
                   "performed": "no",
-                  "waitUntil": 120,
+                  "waitUntil": 20,
                   "filterType": "all",
                   "check_activity_rule": "all"
                 }
