@@ -1,6 +1,149 @@
 {
   "iamRules_v1": [
     {
+      "id": 3095,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "KrTest - add to cart js3",
+      "campaignType": "regular",
+      "status": "running",
+      "os": "ios",
+      "fromDate": "2026-09-17T07:04:23Z",
+      "toDate": "2027-12-30T07:45:24Z",
+      "modifiedDate": "2026-09-17T07:04:27Z",
+      "updatedDate": "2026-09-17T07:04:27Z",
+      "frequency": "0",
+      "skipGlobalFreqCap": false,
+      "scgEnabled": false,
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 102,
+            "eventName": "add_to_cart",
+            "filterType": "all"
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 0,
+        "scgMid": 231,
+        "audience": [
+          {
+            "audienceId": 0,
+            "events": {
+              "rules": [],
+              "targetRule": "all"
+            },
+            "filters": {
+              "exclude": {
+                "listIds": [],
+                "segIds": []
+              },
+              "include": {
+                "listIds": [],
+                "segIds": []
+              }
+            },
+            "priority": 1
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 914,
+            "audienceId": 0,
+            "contentId": "914",
+            "layoutType": "cover",
+            "variant": "0-99999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/914.html?inappVer=1",
+              "useFullScreen": false
+            }
+          }
+        ],
+        "customKeyValue": null,
+        "gaParams": {
+          "utm_campaign": "KrTest - add to cart js3",
+          "utm_content": "",
+          "utm_medium": "In-app",
+          "utm_source": "Netcore",
+          "utm_term": "Onsite"
+        }
+      }
+    },
+    {
       "id": 3094,
       "scgEnabled": true,
       "v": 1,
@@ -518,8 +661,8 @@
         "syncInterval": 0
       },
       "scgConfig": {
-        "listEnabled": true,
-        "percentage": 20
+        "listEnabled": false,
+        "percentage": 50
       }
     },
     "hansel_api_endpoints": {
