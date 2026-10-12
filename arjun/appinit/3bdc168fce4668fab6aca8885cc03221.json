@@ -11,7 +11,7 @@
       "fromDate": "2026-09-17T07:04:23Z",
       "toDate": "2027-12-30T07:45:24Z",
       "modifiedDate": "2026-09-17T07:04:27Z",
-      "updatedDate": "2026-10-10T07:04:27Z",
+      "updatedDate": "2026-10-11T07:04:27Z",
       "frequency": "0",
       "skipGlobalFreqCap": false,
       "scgEnabled": true,
@@ -662,7 +662,7 @@
       },
       "scgConfig": {
         "listEnabled": false,
-        "percentage": 50
+        "percentage": 95
       }
     },
     "hansel_api_endpoints": {
